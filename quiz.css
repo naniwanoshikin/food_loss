@@ -1,3 +1,9 @@
+body {
+  background: #efdec1;
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+}
+
 .quiz {
   width: 400px;
   margin: 8px auto;
@@ -13,6 +19,7 @@
 }
 
 .quiz #choices {
+  list-style: none;
   padding: 0;
   margin-bottom: 16px;
 }

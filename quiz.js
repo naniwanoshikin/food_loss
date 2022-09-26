@@ -7,7 +7,7 @@
   const result = document.getElementById('result');
   const scoreLabel = document.querySelector('#result > p'); // 結果
 
-  // (0番目を正解とする)
+  // c: 0番目を正解とする
   const quizSet = shuffle([
     { q: 'What is A?', c: ['A0', 'A1', 'A2'] },
     { q: 'What is B?', c: ['B0', 'B1', 'B2'] },
@@ -18,7 +18,7 @@
   let isAnswered; // 回答したか？(true/false)
   let score = 0; // 正解数
 
-  // 配列を渡して、シャッフルした配列を返す。
+  // 配列を渡して、シャッフルした配列を返す
   // （フィッシャー・イェーツのシャッフル）
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
