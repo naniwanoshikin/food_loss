@@ -35,5 +35,5 @@ b:
 	git branch
 # ブランチ作成
 bm:
-	git switch -c tweets
+	git switch -c main
 
